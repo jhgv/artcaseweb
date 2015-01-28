@@ -415,7 +415,7 @@ blockquote {
 .promo .overview .download-area {
   display: inline-block;
 }
-.promo .overview .btn-group {
+.promo .overview .btn-group, {
   margin-left: 40px;
 }
 .promo .overview .btn-group li {

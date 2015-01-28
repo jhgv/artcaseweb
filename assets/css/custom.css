@@ -1,3 +1,4 @@
+ /*----- Estilo do menu das features -----*/
 .menu-features{
 	margin: 0 auto;
 	padding: 0;
@@ -25,4 +26,45 @@ li.cell.active{
 	background-color: #FF0248;
 	color: #FFFFFF;
 }
+/*------ fim do estilo do menu das features ------*/
+.artesoes-section{
+	color: #eee;
+	background: url('../images/artesao.png') #FF0248 no-repeat center center;
+	background-size: cover;
+	padding: 15px;
+}
 
+.artesoes-section .slogan{
+	font-size: 60px;
+}
+
+.artesoes-section .artesoes-desc{
+	font-size: 25px;
+	text-align: center;
+	margin: 15px;
+}
+
+.artesoes-section .platforms-download .platforms{
+	list-style: none;
+}
+
+.artesoes-section .platforms-download .platforms li{
+	cursor: pointer;
+	background-color: #B80000;
+	border-radius: 4px;
+	margin: 0 auto;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+.artesoes-section .platforms-download .platforms li:hover{
+	background-color: #FF0248;
+}
+
+.android-os{
+	width: 200px;
+	height: 60px;
+	background-image: url('../images/buttons/btn-google-play.png');
+}
