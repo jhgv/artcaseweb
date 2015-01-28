@@ -1,0 +1,28 @@
+.menu-features{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.menu-features ul.tab{
+	list-style: none;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+
+.menu-features ul li{
+	font-size: 33px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.menu-features ul li.cell{
+	display: table-cell;
+	border: 1px solid #FF0248;
+}
+
+li.cell.active{
+	background-color: #FF0248;
+	color: #FFFFFF;
+}
+
